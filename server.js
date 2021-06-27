@@ -24,7 +24,6 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 // Route Middlewares
-
 app.use("/api", auth);
 
 const PORT = process.env.PORT || 8000;
